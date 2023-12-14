@@ -12,11 +12,13 @@ dependencies:
   equatable:
   http:
   webview_flutter: ^4.4.1
+  mockito: ^5.4.3
+  build_runner: ^2.4.6
 
   get: 4.6.6
   flutter: 
     sdk: flutter
-  firebase_core: ^2.22.0
+  firebase_core: ^2.24.2
   google_fonts: ^6.1.0
   firebase_auth: ^4.14.0
   shared_preferences: ^2.2.2
