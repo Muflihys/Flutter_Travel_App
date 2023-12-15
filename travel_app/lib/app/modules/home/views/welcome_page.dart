@@ -30,6 +30,7 @@ class _WelcomePageState extends State<WelcomePage> {
         itemCount: images.length,
         itemBuilder: (_, index) {
           return Container(
+            key: Key('image_container_$index'),
             width: double.infinity,
             height: double.infinity,
             decoration: BoxDecoration(
